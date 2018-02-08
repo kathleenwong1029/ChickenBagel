@@ -65,13 +65,18 @@ public class MatrixFinder{
 
 	    _yCor += 1;
 	    counter += 1;
+	    
 	}
 
+	if (_yCor >= arr.length ) {
+	    _yCor = arr.length - 1;
+	}
+	
 	counter = _xCor;
 	storeValue = _xCor;
 
 	//traverse down the column
-	while (counter < arr.length) {
+	while (counter < arr.length) { 
 	    if (target == arr[_xCor][_yCor]) {
 		return "(" + _xCor + "," + _yCor + ")";
 	    }
@@ -106,6 +111,7 @@ public class MatrixFinder{
 
     //Note: This will only look for the worst case scenario (in which the value is the final value)
     //Yes the value not being in the matrix at all is also a worst case scenario
+    //The worst case is incorrect, I need to fix it
     //If you guys want to do that, we can edit this method or take it out of this method
     //Populate is designed to work with this specifically
     //If a 2D array is made without populate, getTime will not work properly
@@ -114,7 +120,7 @@ public class MatrixFinder{
 	long totalTime = 0;
 	long averageTime = 0;
 	int area = arr.length * arr[0].length;
-	int target = area - 1;
+	int target = arr[arr.length - 1][0];
 
 	System.out.println("Matrix Size: " + arr.length + "x" + arr.length  + ", Looking For: " + target );
 	startTime = System.nanoTime();
