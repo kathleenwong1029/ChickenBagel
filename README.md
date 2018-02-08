@@ -1,16 +1,16 @@
-# TChickenBagel: Kathleen Wong, Jerry Ye, Thet Htay Zaw
+# ChickenBagel: Kathleen Wong, Jerry Ye, Thet Htay Zaw
 We need a title
 
-###Hypothesis 
+### Hypothesis 
 
 
-###Background 
+### Background 
 
 
-###Experiment Methodology 
+### Experiment Methodology 
 
 
-###Results 
+### Results 
 
 
-###Conclusions
+### Conclusions
