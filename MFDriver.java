@@ -49,7 +49,7 @@ public class MFDriver {
 	// test case
 
 	System.out.println("Matrix Length, Average Time");
-	for (int i = 1000 ; i <= 5600 ; i += 50) {
+	for (int i = 1000 ; i <= 10000 ; i += 50) {
 	    long[][] example = new long[i][i];
 	    populate(example);
 	    getTime(example);

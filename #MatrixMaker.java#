@@ -1,0 +1,6 @@
+public class MatrixMaker{
+  public static int[][] create(int n){
+    int[][] matrix = new int[n][n];
+    int i
+  }
+}
