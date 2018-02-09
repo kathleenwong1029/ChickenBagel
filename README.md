@@ -24,8 +24,8 @@
     which will be presented in a graph.
 
 
-### Results
-   * Average Runtime for All Trials
+### Results : Average Runtime for All Trials
+
    ![graph results](chart.png)
 
 ### Conclusions
