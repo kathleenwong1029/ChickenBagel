@@ -23,7 +23,7 @@
     50.
 
 ### Results
-   * ![graph results][chart.png]
+   * ![graph results](chart.png)
 
 
 ### Conclusions
