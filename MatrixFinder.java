@@ -15,7 +15,7 @@ public class MatrixFinder{
     //variables
     public static int _xCor, _yCor;
 
-    public static String search(int target, int[][] arr) {
+    public static String search(long target, long[][] arr) {
 
 	_xCor = 0;
 	_yCor = 0;
