@@ -4,18 +4,20 @@
   Lab00 -- But What Does the Data Say? <br /> 
   2018-02-09
 ### Hypothesis
-  * For a n * n matrix, the worst case execution time of our search method is
-    O(n).
+  * For a n * n matrix where every row and column is sorted in ascending order from smallest integer to largest integer, the worst case execution time of our search method is O(n).
 
 ### Background
-  * We are testing an algorithm starts by traversing diagonally through the array, starting
+  * The algorithm we are testing starts by traversing diagonally through the array, starting
      from the top left corner, until the next diagonal value is greater than the
      target value. At this point, we traverse through the rest of the row(to the right)
      to search for our target. If we find a value in the row greater than the target,
      we break because we know that the 2d array is in ascending order, and instead
      traverse down the rest of the column starting at the original diagonal location.
      In this algorithm, the worse case scenario should be when the target number is at
-     the bottom left corner.
+     the bottom left corner because in this case you are fully transversing across one row of
+     the matrix and one column of the matrix. 
+### Justification For Hypothesis
+   * We believe our hypothesis is true because even in our worst case scenario you will only be transversing through one row and one column of a matrix. In an n by n matrix, this would be that we would be transversing through 2n elements, leading to a linear O(n) run time. 
 
 ### Experiment Methodology
   * Starting with an array of 1000 by 1000, one trial will consist of running
