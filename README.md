@@ -1,6 +1,8 @@
-# MergeSort Vs. Runtime
-  * ChickenBagel: Kathleen Wong, Jerry Ye, Thet Htay Zaw
-
+# Analyzing the Runtime of Our Matrix Search Algorithm 
+  ChickenBagel: Kathleen Wong, Jerry Ye, Thet Htay Zaw <br />
+  APCS2 PD02 <br />
+  Lab00 -- But What Does the Data Say? <br /> 
+  2018-02-09
 ### Hypothesis
   * For a n * n matrix, the worst case execution time of our search method is
     O(n).
